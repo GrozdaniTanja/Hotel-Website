@@ -13,7 +13,7 @@ Hotel Grozdani is a web-based hotel management system designed to streamline and
 
 - SQL Database: Hotel Grozdani employs an SQL database to store and manage data such as room details, customer information, and reservations. The database is accessed and manipulated using SQL queries through PHP.
 
-- Booking System: The project incorporates a robust booking system, allowing users make reservations. The system ensures that reservations are handled efficiently and accurately.
+- Booking System: The project incorporates a robust booking system, allowing users to make reservations. The system ensures that reservations are handled efficiently and accurately.
 
 - PHPMailer: Hotel Grozdani utilizes PHPMailer, a popular PHP library, to handle email notifications. PHPMailer enables the system to send automated emails to customers for booking confirmations, reminders, and other communication.
 
@@ -41,14 +41,9 @@ Hotel Grozdani provides the following features:
 5. **Responsive Design:** The user interface is designed to be responsive, adapting to different screen sizes and devices.
 
 ## License
-Hotel Grozdani is licensed under the Bootstrap license. Please refer to the `LICENSE` file in the project repository for more details. 
+
 Template Name: TheEvent
 Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
 License: https://bootstrapmade.com/license/
 
-## Support and Contact
-For any questions, issues, or support regarding Hotel Grozdani, please reach out to the author, Tanja Grozdani, at [tanjagrozdani@gmail.com].
 
----
-
-Thank you for using Hotel Grozdani! We hope this project helps streamline your hotel management operations and provides a seamless experience for your guests.
