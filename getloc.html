@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<title>Web Page Design</title>
+<head>
+
+</head>
+<body>
+<div id="IP">
+</div>
+<div id="Country">
+</div>
+<div id="loc">
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+function ipLookUp () {
+ $.ajax({
+        url: 'https://ipinfo.io',
+        dataType: 'jsonp',       
+        jsonp: 'callback',
+    })
+  .then(
+      function success(response) {
+         $("#IP").html(response.ip);
+          $("#Country").html(response.country);
+           $("#loc").html(response.loc);
+         console.log(response.ip, response.country,response.loc);
+
+      },
+
+      function fail(data, status) {
+          console.log('Request failed.  Returned status of',
+                      status);
+      }
+  );
+}
+ipLookUp()
+</script>
+</body>
+</html>
