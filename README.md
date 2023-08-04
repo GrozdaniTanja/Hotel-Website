@@ -1,5 +1,6 @@
 
 # Hotel Grozdani Project
+![Screenshot 2023-07-14 124815](https://github.com/GrozdaniTanja/Hotel-Website/assets/74705132/6c7ae755-6ee5-41cb-b2c4-049968860d1f)
 
 **Author:** Tanja Grozdani
 
